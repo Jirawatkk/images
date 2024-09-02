@@ -1,0 +1,12 @@
+docker build -t selenoid/android:13.0_tmp \
+--build-arg APPIUM_VERSION=2.0.1 \
+--build-arg ANDROID_DEVICE= \
+--build-arg REPLACE_IMG= \
+--build-arg AVD_NAME=android13.0-1 \
+--build-arg 'BUILD_TOOLS=build-tools;29.0.2' \
+--build-arg PLATFORM=android-33 \
+--build-arg 'EMULATOR_IMAGE=system-images;android-33;google_apis;x86_64' \
+--build-arg EMULATOR_IMAGE_TYPE=google_apis \
+--build-arg ANDROID_ABI=x86_64 \
+--build-arg SDCARD_SIZE=500 \
+--build-arg USERDATA_SIZE=500 android

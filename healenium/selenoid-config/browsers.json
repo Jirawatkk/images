@@ -1,0 +1,22 @@
+{
+    "chrome": {
+        "default": "124.0",
+        "versions": {
+            "124.0": {
+                "image": "selenoid/chrome:124.0",
+                "port": "4444",
+                "path": "/"
+            }
+        }
+    },
+    "android": {
+        "default": "13.0",
+        "versions": {
+            "13.0": {
+                "image": "selenoid/android:13.0",
+                "port": "4444",
+                "path": "/wd/hub"
+            }
+        }
+    }
+}

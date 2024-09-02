@@ -4,6 +4,13 @@
 *.bak
 images
 pkged.go
+*.pyc
+.venv
+*.png
+*.html
+*.log
+*.xml
+*.apk
 
 .DS_Store
 
